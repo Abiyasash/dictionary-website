@@ -1,0 +1,118 @@
+body {
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: Inter, Arial;
+}
+
+.dictionaryForm {
+  margin: 20px;
+}
+
+.wordInput {
+  padding: 5px 10px;
+  font-size: 2.5rem;
+  font-family: Inter, Arial;
+  border: 3px solid rgba(0, 0, 0, 0.75);
+  border-radius: 5px;
+  margin-right: 15px;
+}
+
+button[type="submit"] {
+  font-size: 2.5rem;
+  font-family: Inter, Arial;
+  padding: 5px 10px;
+  margin-right: 15px;
+  background-color: rgb(6, 218, 207);
+  border: 3px solid rgba(0, 0, 0, 0.75);
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.25s ease, color 0.25s ease;
+}
+
+button[type="submit"]:hover {
+  background-color: rgb(7, 175, 167);
+  color: white;
+}
+
+.clearBtn {
+  font-size: 2.5rem;
+  font-family: Inter, Arial;
+  padding: 5px 10px;
+  background-color: rgb(255, 98, 8);
+  border: 3px solid rgba(0, 0, 0, 0.75);
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.25s ease, color 0.25s ease;
+}
+
+.clearBtn:hover {
+  background-color: rgb(218, 84, 6);
+  color: white;
+}
+
+.resultCard {
+  display: none;
+  background: linear-gradient(180deg, rgb(101, 168, 241), rgb(197, 132, 251));
+  min-width: 800px;
+  align-items: center;
+  padding: 20px;
+}
+
+.wordDisplay {
+  font-size: 4.5rem;
+  font-weight: 700;
+  color: rgba(0, 0, 0, 0.75);
+  text-align: center;
+}
+
+.phoneticDisplay {
+  color: rgb(46, 113, 171);
+  font-size: 2rem;
+  transition: color 0.25s ease;
+}
+
+.phoneticDisplay:hover {
+  color: rgb(34, 82, 124);
+}
+
+.partOfSpeechDisplay {
+  font-size: 2.5rem;
+  color: rgb(0, 0, 0);
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.defDisplay {
+  font-size: 2.5rem;
+  color: rgb(0, 51, 102);
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.exampleDisplay {
+  font-size: 2rem;
+  font-style: italic;
+  font-weight: bold;
+  color: rgb(0, 0, 0);
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+}
+
+.antonymsDisplay {
+  font-size: 2rem;
+  font-weight: bold;
+  color: rgb(173, 28, 28);
+}
+
+.synonymsDisplay {
+  font-size: 2rem;
+  font-weight: bold;
+  color: rgb(3, 99, 37);
+}
+
+.errorDisplay {
+  font-size: 3.5rem;
+  font-weight: 700;
+  color: rgba(0, 0, 0, 0.75);
+}
