@@ -152,6 +152,7 @@ function displayError(msg) {
 clearBtn.addEventListener("click", (event) => {
   event.preventDefault();
 
+  wordInput.value = "";
   resultCard.textContent = "";
   resultCard.style.display = "none";
 });
